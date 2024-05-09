@@ -1,0 +1,24 @@
+{
+  "name": "weather-cli",
+  "version": "1.0.0",
+  "description": "weather cli",
+  "main": "weather.js",
+  "type": "module",
+  "bin": {
+    "weather": "weather.js"
+  },
+  "scripts": {
+    "start": "node weather.js"
+  },
+  "keywords": [
+    "weather",
+    "cli"
+  ],
+  "author": "vik753",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "chalk": "^5.3.0",
+    "dedent": "^1.5.3"
+  }
+}
